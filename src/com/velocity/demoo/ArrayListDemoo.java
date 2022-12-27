@@ -9,11 +9,7 @@ public class ArrayListDemoo {
 		list.add("Mohan");
 		list.add("vinod");
 		
-		for (String s :list) {
-			
-		System.out.println(s);	
-		}	
-		
+		list.stream().forEach(x->System.out.println(x));
 	}
 
 }
